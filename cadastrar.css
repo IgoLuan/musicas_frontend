@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 3.2rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+main {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.voltar {
+    color: #5b5bd6;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.6rem;
+}
+
+h1 {
+    margin: 1.6rem 0 2.4rem;
+    font-size: 3.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: #222222;
+    background-color: #ffffff;
+    border: 0.2rem solid #b8b8c2;
+    border-radius: 0.6rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #5b5bd6;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 1.4rem;
+    margin-top: 2.8rem;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5b5bd6;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a4ac0;
+}
+
+button:focus-visible,
+.voltar:focus-visible {
+    outline: 0.3rem solid #222222;
+    outline-offset: 0.2rem;
+}
