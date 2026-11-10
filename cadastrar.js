@@ -1,4 +1,4 @@
-const urlBackend = "https://musicas-backend-one.vercel.app/";
+const urlBackend = "https://musicas-backend-one.vercel.app";
 const inputTitulo = document.getElementById("titulo");
 const inputArtista = document.getElementById("artista");
 const inputGenero = document.getElementById("genero");

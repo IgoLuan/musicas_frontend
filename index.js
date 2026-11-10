@@ -1,4 +1,4 @@
-const urlBackend = "https://musicas-backend-one.vercel.app/";
+const urlBackend = "https://musicas-backend-one.vercel.app";
 const listaMusicas = document.getElementById("listaMusicas")
 
 async function buscarMusicas() {
